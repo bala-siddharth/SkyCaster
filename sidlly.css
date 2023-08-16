@@ -1,0 +1,308 @@
+.wrapper {
+    width: 100%;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #dee2e6;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barriecito', cursive;
+    padding: 20px;
+  }
+@media screen and (min-width:768px){
+    .header{
+        font-size: 32px;
+    }
+}
+.container-fluid{
+    max-width: 1440px;
+}
+.bg-img-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-weather-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-weather-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-weather-container label{
+    text-align: center;
+}
+.error-city-description{
+    color: red;
+    text-align: center;
+    font-family: Billabong;
+    font-size: large;
+}
+#weatherResultContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-container{
+    background-color: #f2f7f4;
+    height: 100%;
+    max-width: 425px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:768px) {
+    .bg-container{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+}
+.city-name-container{
+    display: flex;
+    flex-direction: column;
+}
+.city-name{
+    font-family: Billabong
+}
+.icon-img{
+    height: 100px;
+    width: 100px;
+}
+#countryName{
+    font-family: Billabong;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.temperature-container{
+    display: flex;
+    flex-direction: row;
+}
+.temp-value{
+    font-size: 62px;
+    font-weight: lighter;
+}
+.temperature-description-container{
+    display: flex;
+    flex-direction: column;
+}
+.temp-deg{
+    font-family: Billabong;
+    padding-top: 27px;
+    padding-bottom: 0;
+    font-size: 17px;
+}
+.day-details{
+    font-family: Billabong;
+    font-size: 15px;
+    display: flex;
+}
+
+
+
+
+
+
+.weathe-time-container{
+    display: flex;
+}
+.each-time-container{
+    display: flex;
+    flex-direction: column;
+}
+.time-item-list{
+    display: flex;
+    font-size: 14px;
+    color: #8c8cab;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+@media screen and (max-width:330px){
+    .time-item-list{
+        font-size: 11px;
+    }
+}
+.time-item-list p{
+    margin-bottom: 0;
+    padding-left: 7px;
+}
+.time-weather-details-icon{
+    display: flex;
+    gap: 0.3rem;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    padding: 0;
+}
+@media screen and (max-width:330px){
+    .time-weather-details-icon{
+        gap: 0;
+    }
+}
+.time-temp-details{
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    width: 100%;
+    color: #8c8cab;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:330px){
+    .time-temp-details{
+        gap: 0;
+        font-size: 14px;
+    }
+}
+.time-temp-details p{
+    margin-bottom: 0;
+    text-align: center;
+}
+.week-weather-details-container{
+    display: flex;
+    flex-direction: column;
+}
+.week-weather-box{
+    display: flex;
+    flex-direction: row;
+}
+.week-icon-img{
+    height: 39px;
+    /* padding-bottom: 4px; */
+    min-width: 39px;
+}
+.detail-of-max-temp{
+    color: #8c8cab;
+}
+.detail-of-min-temp{
+    color: #8c8cab;
+}
+
+
+
+
+
+.week-weather-container{
+    height: 250px;
+}
+@media screen and (max-width:540px) {
+    .week-weather-container{
+        padding: 0;
+    }
+}
+
+.forecast-name{
+    font-family: Billabong;
+    font-size: large;
+    border-top: solid 1px #8c8cab;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.days-list{
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    margin: 0;
+    border-radius: 4pt;
+    height: 200px;
+}
+.details-of-week-day{
+    height: 40px;
+    padding-top: 5px;
+    color: #8c8cab;
+}
+.each-days-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4pt;
+}
+.icon-description-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+    height: 40px;
+}
+.details-of-week-icons{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+.detail-week-weather-description{
+    height: 40px;
+    padding-top: 5px;
+    width: 125px;
+    color: #8c8cab;
+}
+.detail-of-max-min-temp{
+    height: 40px;
+    padding-top: 5px;
+    color: #8c8cab;
+}
+.icon-down{
+    height: 20px;
+    width: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.bg-list{
+    background-color: #e9ecef;
+}
+.bottom-drop-details{
+    height: 160px;
+}
+.details-of-ropdown-icon{
+    height: 57px;
+    padding-top: 10px;
+}
+.details-of-ropdown-description{
+    font-family: roboto;
+    font-size: larger;
+    margin: 0;
+}
+.details-of-ropdown-max-min{
+    font-family: Billabong;
+    color: #8c8cab;
+    margin: -1px;
+}
+
+.weather-other-forecast-container{
+    height: 48px;
+    border-left: solid 1px orangered;
+    display: flex;
+    flex-direction: column;
+    color: #8c8cab;
+}
+.mini-forecast-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.dropdown-humidity{
+    font-family: Billabong;
+    margin: 0;
+}
+.tempfeels-like{
+    margin: 0;
+}
+.bg-list{
+    background-color: "#e9ecef";
+}
+.rain-icon{
+    height: 10vh;
+    width: 10vh;
+}
+.drop-down-icon{
+    padding-bottom: 7px;
+    padding-right: 5px;
+}
